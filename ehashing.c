@@ -56,9 +56,8 @@ void dir_double(Diretorio * d){
 
 void dir_ins_bucket(Diretorio * d, Bucket * bucket, int start, int end){
   int i;
-  for(i=start; i<=end; i++){
+  for(i=start; i<=end; i++)
     d->celulas[i].bucket_ref = bucket;
-  }
 }
 
 void find_new_range(Diretorio *d, Bucket * old_bucket, int * new_start, int * new_end){
@@ -67,25 +66,32 @@ void find_new_range(Diretorio *d, Bucket * old_bucket, int * new_start, int * ne
   int new_shared = shared_address << 1;
   new_shared = new_shared | mask;
   int bits_to_fill = d->Profundidade_Global - (old_bucket->profundidade + 1);
-  new_start = new_shared;
-  new_end = new_shared;
+  *new_start = new_shared;
+  *new_end = new_shared;
   for(i=1; i<bits_to_fill; i++){
-    new_start = *new_start << 1;
-    new_end = *new_end << 1;
-    new_end = *new_end | mask;
+    *new_start = *new_start << 1;
+    *new_end = *new_end << 1;
+    *new_end = *new_end | mask;
   }
 }
 
 int bk_split(Diretorio *d, Bucket * bucket){
   if(d->Profundidade_Global == bucket->profundidade) dir_double(d);
   Bucket * novo_bucket = novo_bucket_vazio(*d);
-  int * new_start, * new_end;
-  find_new_range(d, bucket, new_start, new_end);
+  int new_start, new_end, i;
+  find_new_range(d, bucket, &new_start, &new_end);
   dir_ins_bucket(d, novo_bucket, new_start, new_end);
   bucket->profundidade = bucket->profundidade + 1;
   novo_bucket->profundidade = bucket->profundidade;
   novo_bucket->id = bucket->id + 1;
-  //TODO: Redistribuir as chaves entre os buckets
+  /*Redistribuição das chaves entre os buckets*/
+  TipoChave * chaves_para_redistribuir = bucket->chaves;
+  int ch_count = bucket->count;
+  bucket->count = 0;
+  for(i=0; i<ch_count; i++){
+    int endereco = make_address(chaves_para_redistribuir[i], bucket->profundidade);
+    bk_add_key(d, d->celulas[endereco].bucket_ref, chaves_para_redistribuir[i]);
+  }
 }
 
 int bk_add_key(Diretorio * d, Bucket * bucket, TipoChave chave){

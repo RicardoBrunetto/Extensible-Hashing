@@ -12,8 +12,8 @@ Trabalho 02 de Organização e Recuperação de Dados
   - [x] dir_double
   - [x] file_new_range
   - [x] dir_ins_bucket
-- [ ] Redistribuição das chaves
-  - (Apenas após a implementação desta pode-se garantir o bom funcionamento do programa)
+- [x] Redistribuição das chaves
+  - *(Apenas após a implementação desta pode-se garantir o bom funcionamento do programa)*
 - [ ] Função de leitura do arquivo
 - [ ] Interface da main
 - [ ] Relatório

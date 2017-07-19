@@ -30,6 +30,8 @@ int main(int argc, char ** argv){
 
   op_add(d, 15);
   op_add(d, 13);
+  op_add(d, 14);
+  op_add(d, 7);
 
   print_diretorio(d);
 
