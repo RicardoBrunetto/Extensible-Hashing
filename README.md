@@ -1,7 +1,7 @@
 # Extensible-Hasing
 Trabalho 02 de Organização e Recuperação de Dados
 
-#To Do List
+# To Do List
 - [x] Definição das estruturas
 - [x] Implementações
   - [x] make_address
