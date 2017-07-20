@@ -25,6 +25,7 @@ typedef struct{
   Celula * celulas;
   int Profundidade_Global;
   int Bucket_Size;
+  int bucket_id;
 }Diretorio;
 
 Diretorio * inicializar_diretorio(int profundidade);

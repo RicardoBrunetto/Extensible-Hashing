@@ -18,6 +18,7 @@ Diretorio * inicializar_diretorio(int bucket_size){
   Diretorio * dir = (Diretorio *)malloc(sizeof(Diretorio));
   dir->Bucket_Size = bucket_size;
   dir->Profundidade_Global = 0;
+  dir->bucket_id = 1;
   /*Aloca memória para a primeira célula do diretório*/
   Celula * celula = (Celula *)malloc(sizeof(Bucket));
   Bucket * bucket = novo_bucket_vazio(*dir);  /*Cria um novo bucket*/
@@ -83,7 +84,8 @@ int bk_split(Diretorio *d, Bucket * bucket){
   dir_ins_bucket(d, novo_bucket, new_start, new_end);
   bucket->profundidade = bucket->profundidade + 1;
   novo_bucket->profundidade = bucket->profundidade;
-  novo_bucket->id = bucket->id + 1;
+  novo_bucket->id = d->bucket_id;
+  d->bucket_id = d->bucket_id + 1;
   /*Redistribuição das chaves entre os buckets*/
   TipoChave * chaves_para_redistribuir = bucket->chaves;
   int ch_count = bucket->count;
@@ -139,7 +141,7 @@ void print_bucket(Bucket *b, Diretorio *d){
 
 /*Procedimento que mostra as informações de um diretório*/
 void print_diretorio(Diretorio *d){
-  printf("\nInformacoes do diretorio\n\t->Profundidade Global: %d\n\t->Tamanho do Bucket: %d\n", d->Profundidade_Global, d->Bucket_Size);
+  printf("\nInformacoes do diretorio\n\t->Profundidade Global: %d\n\t->Tamanho do Bucket: %d\n\tBucket_id: %d\n", d->Profundidade_Global, d->Bucket_Size, d->bucket_id);
   int i;
   int size = pow(2, d->Profundidade_Global);
 
