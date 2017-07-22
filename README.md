@@ -14,7 +14,7 @@ Trabalho 02 de Organização e Recuperação de Dados
   - [x] dir_ins_bucket
 - [x] Redistribuição das chaves
   - *(Apenas após a implementação desta pode-se garantir o bom funcionamento do programa)*
-- [ ] Função de leitura do arquivo
+- [x] Função de leitura do arquivo
 - [ ] Interface da main
 - [ ] Relatório
   - [ ] Fundamentação
