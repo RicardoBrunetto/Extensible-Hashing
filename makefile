@@ -10,7 +10,7 @@ EXECUTABLE= main
 all: Clear
 
 main: $(OBJECTS)
-	@$(CC) $(CFLAGS) $(SOURCES) -o $(EXECUTABLE)
+	@$(CC) $(CFLAGS) $(SOURCES) -o $(EXECUTABLE) -lm
 	@echo "Sucesso incrivel!"
 
 Clear: main

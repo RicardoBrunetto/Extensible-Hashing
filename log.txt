@@ -1,0 +1,464 @@
+
+Informacoes do diretorio
+	->Profundidade Global: 6
+	->Tamanho do Bucket: 10
+	->Quantidade de Buckets: 36
+
+Celula [ 0] -> Bucket #0
+Celula [ 1] -> Bucket #0
+Celula [ 2] -> Bucket #0
+Celula [ 3] -> Bucket #0
+Celula [ 4] -> Bucket #9
+Celula [ 5] -> Bucket #9
+Celula [ 6] -> Bucket #22
+Celula [ 7] -> Bucket #29
+Celula [ 8] -> Bucket #6
+Celula [ 9] -> Bucket #6
+Celula [10] -> Bucket #16
+Celula [11] -> Bucket #24
+Celula [12] -> Bucket #12
+Celula [13] -> Bucket #26
+Celula [14] -> Bucket #20
+Celula [15] -> Bucket #20
+Celula [16] -> Bucket #2
+Celula [17] -> Bucket #2
+Celula [18] -> Bucket #33
+Celula [19] -> Bucket #33
+Celula [20] -> Bucket #10
+Celula [21] -> Bucket #34
+Celula [22] -> Bucket #17
+Celula [23] -> Bucket #17
+Celula [24] -> Bucket #3
+Celula [25] -> Bucket #3
+Celula [26] -> Bucket #23
+Celula [27] -> Bucket #23
+Celula [28] -> Bucket #8
+Celula [29] -> Bucket #31
+Celula [30] -> Bucket #11
+Celula [31] -> Bucket #11
+Celula [32] -> Bucket #1
+Celula [33] -> Bucket #1
+Celula [34] -> Bucket #25
+Celula [35] -> Bucket #25
+Celula [36] -> Bucket #19
+Celula [37] -> Bucket #19
+Celula [38] -> Bucket #28
+Celula [39] -> Bucket #28
+Celula [40] -> Bucket #7
+Celula [41] -> Bucket #30
+Celula [42] -> Bucket #18
+Celula [43] -> Bucket #18
+Celula [44] -> Bucket #13
+Celula [45] -> Bucket #13
+Celula [46] -> Bucket #35
+Celula [47] -> Bucket #35
+Celula [48] -> Bucket #4
+Celula [49] -> Bucket #4
+Celula [50] -> Bucket #21
+Celula [51] -> Bucket #21
+Celula [52] -> Bucket #14
+Celula [53] -> Bucket #14
+Celula [54] -> Bucket #32
+Celula [55] -> Bucket #32
+Celula [56] -> Bucket #5
+Celula [57] -> Bucket #5
+Celula [58] -> Bucket #5
+Celula [59] -> Bucket #5
+Celula [60] -> Bucket #15
+Celula [61] -> Bucket #15
+Celula [62] -> Bucket #27
+Celula [63] -> Bucket #27
+
+Bucket #0
+	Quantidade de chaves: 10
+	Profundidade: 4
+		->Chave 0: 124592
+		->Chave 1: 143856
+		->Chave 2: 123088
+		->Chave 3: 139968
+		->Chave 4: 224800
+		->Chave 5: 182688
+		->Chave 6: 168304
+		->Chave 7: 211296
+		->Chave 8: 829264
+		->Chave 9: 238304
+
+Bucket #9
+	Quantidade de chaves: 9
+	Profundidade: 5
+		->Chave 0: 110888
+		->Chave 1: 152232
+		->Chave 2: 731368
+		->Chave 3: 137928
+		->Chave 4: 152136
+		->Chave 5: 235176
+		->Chave 6: 188424
+		->Chave 7: 101768
+		->Chave 8: 144552
+
+Bucket #22
+	Quantidade de chaves: 4
+	Profundidade: 6
+		->Chave 0: 131544
+		->Chave 1: 704920
+		->Chave 2: 165272
+		->Chave 3: 214680
+
+Bucket #29
+	Quantidade de chaves: 8
+	Profundidade: 6
+		->Chave 0: 133560
+		->Chave 1: 116600
+		->Chave 2: 194936
+		->Chave 3: 139256
+		->Chave 4: 123704
+		->Chave 5: 157560
+		->Chave 6: 194808
+		->Chave 7: 130296
+
+Bucket #6
+	Quantidade de chaves: 8
+	Profundidade: 5
+		->Chave 0: 229668
+		->Chave 1: 219300
+		->Chave 2: 103460
+		->Chave 3: 127492
+		->Chave 4: 180484
+		->Chave 5: 119620
+		->Chave 6: 100164
+		->Chave 7: 199716
+
+Bucket #16
+	Quantidade de chaves: 6
+	Profundidade: 6
+		->Chave 0: 131284
+		->Chave 1: 773972
+		->Chave 2: 235220
+		->Chave 3: 158420
+		->Chave 4: 115668
+		->Chave 5: 503700
+
+Bucket #24
+	Quantidade de chaves: 7
+	Profundidade: 6
+		->Chave 0: 135220
+		->Chave 1: 123316
+		->Chave 2: 192052
+		->Chave 3: 193268
+		->Chave 4: 194612
+		->Chave 5: 240180
+		->Chave 6: 200500
+
+Bucket #12
+	Quantidade de chaves: 10
+	Profundidade: 6
+		->Chave 0: 133068
+		->Chave 1: 226444
+		->Chave 2: 219916
+		->Chave 3: 161612
+		->Chave 4: 146700
+		->Chave 5: 705804
+		->Chave 6: 703372
+		->Chave 7: 504460
+		->Chave 8: 108620
+		->Chave 9: 169356
+
+Bucket #26
+	Quantidade de chaves: 4
+	Profundidade: 6
+		->Chave 0: 151340
+		->Chave 1: 190700
+		->Chave 2: 170604
+		->Chave 3: 108780
+
+Bucket #20
+	Quantidade de chaves: 9
+	Profundidade: 5
+		->Chave 0: 149948
+		->Chave 1: 213692
+		->Chave 2: 191228
+		->Chave 3: 113852
+		->Chave 4: 147228
+		->Chave 5: 128060
+		->Chave 6: 204540
+		->Chave 7: 213500
+		->Chave 8: 112444
+
+Bucket #2
+	Quantidade de chaves: 7
+	Profundidade: 5
+		->Chave 0: 113602
+		->Chave 1: 197730
+		->Chave 2: 114178
+		->Chave 3: 219810
+		->Chave 4: 167330
+		->Chave 5: 185410
+		->Chave 6: 892994
+
+Bucket #33
+	Quantidade de chaves: 6
+	Profundidade: 5
+		->Chave 0: 203698
+		->Chave 1: 239250
+		->Chave 2: 505682
+		->Chave 3: 193810
+		->Chave 4: 213938
+		->Chave 5: 129874
+
+Bucket #10
+	Quantidade de chaves: 4
+	Profundidade: 6
+		->Chave 0: 131658
+		->Chave 1: 103178
+		->Chave 2: 222474
+		->Chave 3: 174346
+
+Bucket #34
+	Quantidade de chaves: 7
+	Profundidade: 6
+		->Chave 0: 147242
+		->Chave 1: 165226
+		->Chave 2: 213354
+		->Chave 3: 185450
+		->Chave 4: 159530
+		->Chave 5: 104682
+		->Chave 6: 142890
+
+Bucket #17
+	Quantidade de chaves: 9
+	Profundidade: 5
+		->Chave 0: 211450
+		->Chave 1: 181690
+		->Chave 2: 117562
+		->Chave 3: 217242
+		->Chave 4: 191930
+		->Chave 5: 120730
+		->Chave 6: 134298
+		->Chave 7: 117594
+		->Chave 8: 125178
+
+Bucket #3
+	Quantidade de chaves: 6
+	Profundidade: 5
+		->Chave 0: 223462
+		->Chave 1: 113126
+		->Chave 2: 157382
+		->Chave 3: 217670
+		->Chave 4: 106726
+		->Chave 5: 822630
+
+Bucket #23
+	Quantidade de chaves: 8
+	Profundidade: 5
+		->Chave 0: 180598
+		->Chave 1: 202646
+		->Chave 2: 126390
+		->Chave 3: 197430
+		->Chave 4: 211190
+		->Chave 5: 190902
+		->Chave 6: 238966
+		->Chave 7: 109238
+
+Bucket #8
+	Quantidade de chaves: 5
+	Profundidade: 6
+		->Chave 0: 184590
+		->Chave 1: 159950
+		->Chave 2: 102158
+		->Chave 3: 130190
+		->Chave 4: 191502
+
+Bucket #31
+	Quantidade de chaves: 6
+	Profundidade: 6
+		->Chave 0: 191406
+		->Chave 1: 154094
+		->Chave 2: 190254
+		->Chave 3: 182574
+		->Chave 4: 230574
+		->Chave 5: 130990
+
+Bucket #11
+	Quantidade de chaves: 6
+	Profundidade: 5
+		->Chave 0: 500030
+		->Chave 1: 141086
+		->Chave 2: 137950
+		->Chave 3: 107326
+		->Chave 4: 704030
+		->Chave 5: 152606
+
+Bucket #1
+	Quantidade de chaves: 9
+	Profundidade: 5
+		->Chave 0: 170401
+		->Chave 1: 145889
+		->Chave 2: 180705
+		->Chave 3: 201537
+		->Chave 4: 235137
+		->Chave 5: 136737
+		->Chave 6: 136833
+		->Chave 7: 236641
+		->Chave 8: 218593
+
+Bucket #25
+	Quantidade de chaves: 4
+	Profundidade: 5
+		->Chave 0: 147121
+		->Chave 1: 113521
+		->Chave 2: 185937
+		->Chave 3: 700465
+
+Bucket #19
+	Quantidade de chaves: 5
+	Profundidade: 5
+		->Chave 0: 213705
+		->Chave 1: 106345
+		->Chave 2: 224297
+		->Chave 3: 107753
+		->Chave 4: 501513
+
+Bucket #28
+	Quantidade de chaves: 7
+	Profundidade: 5
+		->Chave 0: 121913
+		->Chave 1: 103737
+		->Chave 2: 101049
+		->Chave 3: 219001
+		->Chave 4: 138617
+		->Chave 5: 213977
+		->Chave 6: 137593
+
+Bucket #7
+	Quantidade de chaves: 10
+	Profundidade: 6
+		->Chave 0: 218821
+		->Chave 1: 152645
+		->Chave 2: 135813
+		->Chave 3: 765445
+		->Chave 4: 124101
+		->Chave 5: 196741
+		->Chave 6: 116357
+		->Chave 7: 107333
+		->Chave 8: 236997
+		->Chave 9: 113605
+
+Bucket #30
+	Quantidade de chaves: 4
+	Profundidade: 6
+		->Chave 0: 195493
+		->Chave 1: 186341
+		->Chave 2: 107493
+		->Chave 3: 213605
+
+Bucket #18
+	Quantidade de chaves: 8
+	Profundidade: 5
+		->Chave 0: 146133
+		->Chave 1: 505141
+		->Chave 2: 166901
+		->Chave 3: 147477
+		->Chave 4: 191349
+		->Chave 5: 129269
+		->Chave 6: 221269
+		->Chave 7: 113845
+
+Bucket #13
+	Quantidade de chaves: 6
+	Profundidade: 5
+		->Chave 0: 186989
+		->Chave 1: 738957
+		->Chave 2: 159981
+		->Chave 3: 122381
+		->Chave 4: 176429
+		->Chave 5: 104013
+
+Bucket #35
+	Quantidade de chaves: 8
+	Profundidade: 5
+		->Chave 0: 236285
+		->Chave 1: 128733
+		->Chave 2: 101437
+		->Chave 3: 119549
+		->Chave 4: 198525
+		->Chave 5: 127357
+		->Chave 6: 238973
+		->Chave 7: 163613
+
+Bucket #4
+	Quantidade de chaves: 9
+	Profundidade: 5
+		->Chave 0: 153603
+		->Chave 1: 113603
+		->Chave 2: 183459
+		->Chave 3: 222531
+		->Chave 4: 114915
+		->Chave 5: 192419
+		->Chave 6: 174691
+		->Chave 7: 191107
+		->Chave 8: 221283
+
+Bucket #21
+	Quantidade de chaves: 9
+	Profundidade: 5
+		->Chave 0: 163603
+		->Chave 1: 136915
+		->Chave 2: 235219
+		->Chave 3: 502323
+		->Chave 4: 784883
+		->Chave 5: 704595
+		->Chave 6: 100755
+		->Chave 7: 151027
+		->Chave 8: 263603
+
+Bucket #14
+	Quantidade de chaves: 6
+	Profundidade: 5
+		->Chave 0: 135051
+		->Chave 1: 171371
+		->Chave 2: 111627
+		->Chave 3: 118251
+		->Chave 4: 180267
+		->Chave 5: 128651
+
+Bucket #32
+	Quantidade de chaves: 6
+	Profundidade: 5
+		->Chave 0: 159419
+		->Chave 1: 131195
+		->Chave 2: 113083
+		->Chave 3: 124795
+		->Chave 4: 846363
+		->Chave 5: 215355
+
+Bucket #5
+	Quantidade de chaves: 9
+	Profundidade: 4
+		->Chave 0: 142487
+		->Chave 1: 204647
+		->Chave 2: 194391
+		->Chave 3: 115703
+		->Chave 4: 195511
+		->Chave 5: 194231
+		->Chave 6: 186487
+		->Chave 7: 213895
+		->Chave 8: 235735
+
+Bucket #15
+	Quantidade de chaves: 6
+	Profundidade: 5
+		->Chave 0: 201455
+		->Chave 1: 117263
+		->Chave 2: 118511
+		->Chave 3: 119855
+		->Chave 4: 188463
+		->Chave 5: 101775
+
+Bucket #27
+	Quantidade de chaves: 5
+	Profundidade: 5
+		->Chave 0: 105695
+		->Chave 1: 232415
+		->Chave 2: 130079
+		->Chave 3: 213087
+		->Chave 4: 141855

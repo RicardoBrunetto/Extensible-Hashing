@@ -3,10 +3,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 #define FALHA   0
 #define SUCESSO 1
+#define FLAG_TEMP    -1
 
 typedef int TipoChave;
 
