@@ -15,10 +15,4 @@ Trabalho 02 de Organização e Recuperação de Dados
 - [x] Redistribuição das chaves
   - *(Apenas após a implementação desta pode-se garantir o bom funcionamento do programa)*
 - [x] Função de leitura do arquivo
-- [ ] Interface da main
-- [ ] Relatório
-  - [ ] Fundamentação
-  - [ ] Ambiente
-  - [ ] Decisões de Projeto
-  - [ ] Configurações necessárias
-  - [ ] Explicação dos módulos
+- [x] Interface da main

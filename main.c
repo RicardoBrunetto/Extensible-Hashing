@@ -26,7 +26,6 @@ int main(int argc, char ** argv){
 
   FILE *f = fopen("chaves.txt", "r");
 
-
   char buffer[50];
   while(fgets(buffer, 50, f) != 0){
     int chave = atoi(buffer);
@@ -34,29 +33,10 @@ int main(int argc, char ** argv){
     op_add(d, chave);
   }
 
-  // op_add(d, 135220);
-  // op_add(d, 213705);
-  // op_add(d, 113602);
-  // op_add(d, 153603);
-  // op_add(d, 113603);
-  // op_add(d, 223462);
-  // op_add(d, 123316);
-  // op_add(d, 184590);
-  // op_add(d, 147242);
-  // op_add(d, 106345);
-
-  // op_add(d, 12);
-  // op_add(d, 5);
-
   print_diretorio(d);
 
-  // op_add(d, 15);
-  // op_add(d, 13);
-  // op_add(d, 14);
-  // op_add(d, 7);
-  //
-  // print_diretorio(d);
-
+  printf("\n\nArquivo log.txt contem o diretorio impresso.\n\n");
   system("pause");
+  system("notepad log.txt");
   return 0;
 }
