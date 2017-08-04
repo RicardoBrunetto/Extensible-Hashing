@@ -16,6 +16,7 @@ Bucket * novo_bucket_vazio(Diretorio * d, int temp){
     bucket->id = FLAG_TEMP;
   }
   bucket->count = 0;
+  return bucket;
 }
 
 /*Procedimento que inicaliza um diretório*/
@@ -61,7 +62,7 @@ void dir_double(Diretorio * d){
   d->Profundidade_Global = d->Profundidade_Global + 1;
 }
 
-int dir_ins_bucket(Diretorio *d, Bucket * novo, int start, int end){
+void dir_ins_bucket(Diretorio *d, Bucket * novo, int start, int end){
   int i;
   for(i=start; i<=end; i++){
     d->celulas[i].bucket_ref = novo;
@@ -82,7 +83,7 @@ void find_new_range(Diretorio * d, Bucket * old, int * new_start, int * new_end)
   }
 }
 
-int bk_split(Diretorio *d, Bucket * original){
+void bk_split(Diretorio *d, Bucket * original){
   if(original->profundidade == d->Profundidade_Global) dir_double(d);
   Bucket * novo_bucket = novo_bucket_vazio(d, 0);
   int new_start, new_end;
@@ -107,7 +108,7 @@ int bk_split(Diretorio *d, Bucket * original){
   free(temp);
 }
 
-int bk_add_key(Diretorio *d, Bucket * b, TipoChave chave){
+void bk_add_key(Diretorio *d, Bucket * b, TipoChave chave){
   /*Verifica se o bucket não está cheio*/
   if(b->count < d->Bucket_Size){
     b->chaves[b->count] = chave;
@@ -138,10 +139,8 @@ int op_add(Diretorio *d, TipoChave chave){
   if(op_find(d, chave, &found_Bucket)) return FALHA;
   bk_add_key(d, found_Bucket, chave);
   print_diretorio(d);
+  return SUCESSO;
 }
-
-
-
 
 /*Procedimento que mostra as informações de um bucket*/
 void print_bucket(FILE *f, Bucket *b, Diretorio *d){
