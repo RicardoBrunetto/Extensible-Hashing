@@ -1,6 +1,0 @@
-#!/bin/bash
-var="$@"
-git add . && \
-git add -u && \
-git commit -m "$var" && \
-git push upstream
