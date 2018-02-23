@@ -8,7 +8,7 @@ Dado um arquivo de entrada `chaves.txt` contendo chaves numéricas, o programa s
 Por fim, uma listagem completa do diretório é impressa no arquivo `log.txt`.
 
 ## Especificações Tecnológicas
-Todo o programa foi escrito em C para Windows. O `makefile` local pode ser perfeitamente utilizado, visto que não há dependências externas que requeiram complexidade.
+Todo o programa foi escrito em C. O `makefile` local pode ser perfeitamente utilizado, caso haja um `make` instalado no Windows, visto que não há dependências externas que requeiram complexidade. Caso contrário, deve-se seguir as instruções no relatório.
 
 ## Implementação
 O relatório com detalhes de implementação pode ser encontrado [aqui](Documentação/Relatório.pdf).
