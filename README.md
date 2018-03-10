@@ -1,4 +1,4 @@
-# Extensible-Hasing
+# Extensible-Hashing
 Este trabalho foi desenvolvido para a disciplina de Organização e Recuperação de Dados (Ciência da Computação - UEM) em Agosto/2017 por:
 - Rafael Rodrigues dos Santos (ra94075@uem.br)
 - Ricardo Henrique Brunetto (ra94182@uem.br)
